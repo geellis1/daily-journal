@@ -1,12 +1,14 @@
 {
     "journalEntries": [
     {
+       "id": 1,
         "entryDate": "08/13/2019",
         "conceptsTitle": "html",
         "longForm": "Today we learned the very basics of html",
         "mood": "pumped"
     },
     {
+        "id": 2,
         "entryDate": "",
         "conceptsTitle": "",
         "longForm": "",
@@ -14,3 +16,5 @@
     }
 ]
 }
+
+
