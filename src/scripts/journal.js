@@ -1,18 +1,8 @@
-const journalEntry = [
-    {
-        entryDate: "08/13/2019",
-        conceptsTitle: "html",
-        longForm: "Today we learned the very basics of html",
-        mood: ""
-    },
-    {
-        entryDate: "",
-        conceptsTitle: "",
-        longForm: "",
-        mood: "pumped"
-    }
-];
+/*
+    Main application logic that uses the functions and objects
+    defined in the other JavaScript files.
 
-
-
-console.log(journalEntry);
+    Change the fake variable names below to what they should be
+    to get the data and display it.
+*/
+objectWithGetterMethod.methodToGetData().then(functionThatRendersData)
