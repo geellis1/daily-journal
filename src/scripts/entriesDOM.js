@@ -1,5 +1,8 @@
-const entryInfo = document.querySelector("#container")
+const entryInfo = document.querySelector(".entryLog")
 
-for (let i = 0; i < journalEntries.length; i++) {
-    entryInfo.innerHTML += makeJournalEntryComponent(journalEntries[i])
-    };
+function renderJournalEntries (journalEntryArray)  {
+    for (let i = 0; i < journalEntryArray.length; i++) {
+        entryInfo.innerHTML += makeJournalEntryComponent(journalEntryArray[i])
+    }
+}
+

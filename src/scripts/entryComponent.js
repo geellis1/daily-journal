@@ -1,8 +1,12 @@
-const makeJournalEntryComponent = (item) => {
-    return `<div>
-    <title>${item.conceptsTitle}</title>
-    <p>${item.entryDate}</p>
-    <p>${item.longForm}</p>
-    <p>${item.mood}</p>
-</div>`   
-}
+const makeJournalEntryComponent = (entryObj) => {
+    let newJournalObj = `
+    <article>
+    <title>${entryObj.conceptsTitle}</title>
+    <p>${entryObj.entryDate}</p>
+    <p>${entryObj.longForm}</p>
+    <p>${entryObj.mood}</p>
+</article>
+`;
+return newJournalObj;   
+};
+
