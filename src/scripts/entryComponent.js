@@ -10,3 +10,8 @@ const makeJournalEntryComponent = (entryObj) => {
 return newJournalObj;   
 };
 
+
+export default makeJournalEntryComponent
+
+
+

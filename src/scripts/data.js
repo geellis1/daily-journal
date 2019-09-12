@@ -1,9 +1,3 @@
-// fetch("http://localhost:3000/journalEntries") // Fetch from the API
-//     .then(journalEntries => journalEntries.json())  // Parse as JSON
-//     .then(parsedJournalEntries => {
-//         renderJournalEntries(parsedJournalEntries)
-//         });
-
 
     
 const API = {
@@ -12,3 +6,10 @@ const API = {
             .then(response => response.json())
     }
 }
+
+export default API 
+
+
+
+
+

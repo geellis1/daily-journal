@@ -1,8 +1,18 @@
-/*
-    Main application logic that uses the functions and objects
-    defined in the other JavaScript files.
+import myObject from "./entriesDOM.js"
+import API from "./data.js"
+import renderJournalEntries from "./entriesDOM.js"
 
-    Change the fake variable names below to what they should be
-    to get the data and display it.
-*/
 API.getJournalEntries().then(renderJournalEntries)
+
+
+
+
+/* because the import is bringing in functions you have to call
+the two functions on the file that you are importing them into for example
+below
+
+myObject.newFunction()
+myObject.oldFunction()
+
+*/
+
