@@ -1,20 +1,32 @@
 {
-    "journalEntries": [
+  "journalEntries": [
     {
-       "id": 1,
-        "entryDate": "08/13/2019",
-        "conceptsTitle": "html",
-        "longForm": "Today we learned the very basics of html",
-        "mood": "pumped"
+      "id": 1,
+      "entryDate": "08/13/2019",
+      "conceptsTitle": "html",
+      "entryNotes": "Today we learned the very basics of html",
+      "mood": "pumped"
     },
     {
-        "id": 2,
-        "entryDate": "",
-        "conceptsTitle": "",
-        "longForm": "",
-        "mood": ""
+      "id": 2,
+      "entryDate": "",
+      "conceptsTitle": "",
+      "entryNotes": "",
+      "mood": ""
+    },
+    {
+      "entryDate": "2019-09-06",
+      "conceptsTitle": "fd",
+      "entryNotes": "fds",
+      "mood": "sad",
+      "id": 3
+    },
+    {
+      "entryDate": "2019-09-13",
+      "conceptsTitle": "fds",
+      "entryNotes": "fds",
+      "mood": "confused",
+      "id": 4
     }
-]
+  ]
 }
-
-

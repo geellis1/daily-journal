@@ -1,9 +1,9 @@
 const makeJournalEntryComponent = (entryObj) => {
     let newJournalObj = `
     <article>
-    <title>${entryObj.conceptsTitle}</title>
+    <p>${entryObj.conceptsTitle}</p>
     <p>${entryObj.entryDate}</p>
-    <p>${entryObj.longForm}</p>
+    <p>${entryObj.entryNotes}</p>
     <p>${entryObj.mood}</p>
 </article>
 `;
